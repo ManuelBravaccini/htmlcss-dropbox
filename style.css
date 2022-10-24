@@ -16,7 +16,7 @@
 }
 
 .wide {
-    padding: 0 15rem;
+    padding: 0 30rem;
 }
 
 body>header {   /*Header*/
@@ -70,4 +70,22 @@ section#team {
     width: 100%;
     height: 300px;
     border: 1px solid black;
+}
+
+section.partner img {
+    width: 60%;
+}
+
+section.operations {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 800px;
+}
+
+div.cards {
+    width: 300px;
+}
+
+div.cards img {
+    width: 100%;
 }
