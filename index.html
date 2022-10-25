@@ -23,16 +23,19 @@
         </nav>
     </header>
     <main>
-        <header class="wide2">
-            <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, doloremque aperiam. Quasi magni vero quisquam illo maxime alias quas, dolores nesciunt. Voluptas consequatur natus eaque, eius totam incidunt obcaecati esse?</h1>
-            <div class="flex">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel est, eligendi atque veniam impedit nisi assumenda cum voluptatem ad eveniet. Ipsum error deserunt quas aliquam accusamus dicta beatae quasi illo.
-                    Ducimus ipsam blanditiis cum perferendis nostrum ut quidem, ullam ab ea commodi consequuntur in temporibus vitae non! Est odio porro vero distinctio mollitia ducimus perferendis quisquam ex! Possimus, vel aut.</p>
+        <header id="jumbotron" class="margin-bottom">
+            <div class="wide1">
+                <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, doloremque aperiam. Quasi magni vero quisquam illo maxime alias quas, dolores nesciunt. Voluptas consequatur natus eaque, eius totam incidunt obcaecati esse?</h1>
+                <div class="flex">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel est, eligendi atque veniam impedit nisi assumenda cum voluptatem ad eveniet. Ipsum error deserunt quas aliquam accusamus dicta beatae quasi illo.
+                        Ducimus ipsam blanditiis cum perferendis nostrum ut quidem, ullam ab ea commodi consequuntur in temporibus vitae non! Est odio porro vero distinctio mollitia ducimus perferendis quisquam ex! Possimus, vel aut.
+                    </p>
                     <img src="img/jumbo.png" alt="" id="jumbo">
-
+                </div>
             </div>
         </header>
-        <section class="business_plan wide">
+        <section id="billing" class="wide2 margin-bottom">
             <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam harum rem deleniti sed voluptatum obcaecati magnam quas minus excepturi distinctio. Nisi, modi quisquam quis totam alias consectetur veniam deleniti enim!</h2>
             <div class="billing_selection">
                 <input type="radio" name="billing" >
@@ -59,15 +62,19 @@
                 <h3>Enterprise</h3>
             </section>
         </section>
-        <section class="partner wide flex">
+        <section id="partners" class="wide2 flex margin-bottom">
             <img src="img/partner.png" alt="">
-            <h3>Entra in contatto</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quidem nulla repudiandae rerum, fuga, asperiores velit, expedita voluptatem veritatis quibusdam ipsam sed laboriosam provident? Totam nihil maiores voluptatum quisquam recusandae.
-            Maxime voluptas facilis tempora aspernatur blanditiis vel iusto at quam iste mollitia reiciendis adipisci nulla necessitatibus quas accusamus dolores quibusdam magnam enim provident debitis, et numquam, doloremque id commodi. Ullam?</p>
-            <button>Trova un partner</button>   
+            <div class="partner-content">
+                <h3>Entra in contatto</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quidem nulla repudiandae rerum, fuga, asperiores velit, expedita voluptatem veritatis quibusdam ipsam sed laboriosam provident? Totam nihil maiores voluptatum quisquam recusandae.
+                    Maxime voluptas facilis tempora aspernatur blanditiis vel iusto at quam iste mollitia reiciendis adipisci nulla necessitatibus quas accusamus dolores quibusdam magnam enim provident debitis, et numquam, doloremque id commodi. Ullam?
+                </p>
+                <button>Trova un partner</button>
+            </div>   
         </section>
         <h2 class="wide">Esegui più operazione con Dropbox Business</h2>
-        <section class="operations wide flex">
+        <section id="operations" class="wide2 flex margin-bottom">
             <div class="cards">
                 <img src="img/business-feature-switching-tools.png" alt="">
                 <h3>Lorem ipsum dolor sit amet</h3>
@@ -99,14 +106,18 @@
                 <p>iciis non modi excepturi quas reprehenderit saepe nostrum enim eos magnam labore fuga tempora, adipisci voluptate sunt eligendi ipsa! Fugiat molestias culpa, natus inventore aut provident amet dolore aspernatur magnam?</p>
             </div>
         </section>
-        <div class="wide">
-            <h2>Più di 500.000 team utilizzano Dropbox Business</h2>
-            <a href="#">Scopri di più sui nostri clienti</a>
-        </div>
-        <section>
-            <!--Block layout partners-->
+        <section id="clients">
+            <div class="wide2 margin-bottom">
+                <h2>Più di 500.000 team utilizzano Dropbox Business</h2>
+                <a href="#">Scopri di più sui nostri clienti</a>
+            </div>
+            <div class="squares">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+            </div>
         </section>
-        <section class="wide">
+        <section id="faq" class="wide2 margin-bottom">
             <h2>Domande frequenti</h2>
             <hr>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -118,7 +129,7 @@
         </section>
     </main>
     <footer>
-        <nav class="flex wide2">
+        <nav class="flex wide1">
             <ul aria-label="Prodotto">
                 <li>Applicazione desktop</li>
                 <li>Perché Dropbox</li>
