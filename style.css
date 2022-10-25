@@ -62,7 +62,7 @@ button.blue {
     border: 0px;
 }
 
-main>header {   /*Main*/
+main>header {   /*Main ed inizio header main*/ 
     background: #b4d0e7;
     height: 700px;
 }
@@ -84,22 +84,37 @@ header#jumbotron p {
 
 header#jumbotron button {
     margin-bottom: 2rem;
+    font-size: 1.2rem;
 }
 
 #jumbo {
     width: 900px;
 }
 
-section.tabs {
+section.tabs {  /*Section billing*/
+    justify-content: space-between;
+}
+
+section#billing h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+section#billing input,
+section#billing label {
+    margin-bottom: 2rem;
+    padding-right: 2rem;
+}
+
+section#billing section.flex {
     justify-content: space-between;
 }
 
 div.columns {
     border: 1px solid black;
-    width: 500px;
+    width: calc(100% / 3 - 2rem);
     height: 800px;
     padding: 1rem;
-    margin: 1rem;
 }
 
 section#team {
