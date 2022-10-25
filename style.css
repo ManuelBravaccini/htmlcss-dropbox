@@ -112,6 +112,15 @@ div.squares div.square {
     height: calc(100vw / 3);
 }
 
+div#clients-footer {
+    background: #b4d0e7;
+    padding: 100px;
+}
+
+div#clients-footer>div.flex {
+    justify-content: space-between;
+}
+
 footer {    /*Footer*/
     height: 800px;
     background-color: black;
