@@ -17,10 +17,12 @@
 
 .wide1 {
     max-width: 1250px;
+    margin: auto;
 }
 
 .wide2 {
     max-width: 900px;
+    margin: auto;
 }
 
 .margin-bottom {
@@ -86,7 +88,7 @@ section>img {
     width: 60%;
 }
 
-section#operations {
+section#operations>div.flex {
     justify-content: space-between;
     flex-wrap: wrap;
     height: 800px;
@@ -101,7 +103,6 @@ div.cards img {
 }
 
 section div.squares {
-    height: 500px;
     background: red;
 }
 
