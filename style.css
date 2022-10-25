@@ -26,7 +26,7 @@
 }
 
 .margin-bottom {
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 body {
@@ -38,7 +38,6 @@ body>header {   /*Header*/
     width: 100vw;
     height: 80px;
     justify-content: space-between;
-    position: fixed;
 }
 
 header>nav {
@@ -65,15 +64,30 @@ button.blue {
 
 main>header {   /*Main*/
     background: #b4d0e7;
-    height: 500px;
+    height: 700px;
 }
 
 header>div {   
     justify-content: center;
 }
 
+header#jumbotron h1 {
+    font-size: 5rem;
+    font-weight: bolder;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+header#jumbotron p {
+    margin-bottom: 2rem;
+}
+
+header#jumbotron button {
+    margin-bottom: 2rem;
+}
+
 #jumbo {
-    width: 500px;
+    width: 900px;
 }
 
 section.tabs {
