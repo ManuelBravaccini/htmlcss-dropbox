@@ -34,13 +34,15 @@ body {
 }
 
 body>header {   /*Header*/
-    background: blue;
-    height: 100px;
+    background-color: white;
+    width: 100vw;
+    height: 80px;
     justify-content: space-between;
+    position: fixed;
 }
 
 header>nav {
-    padding: 1rem;
+    padding: 2rem;
 }
 
 nav>img {
@@ -50,7 +52,15 @@ nav>img {
 nav>a {
     text-decoration: none;
     outline: none;
+    color: black;
+    padding: 0 1rem;
+}
+
+button.blue {
+    padding: 0.5rem 1rem;
+    background: #0061ff;
     color: white;
+    border: 0px;
 }
 
 main>header {   /*Main*/
