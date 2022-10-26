@@ -179,9 +179,6 @@ section#users h2{   /*Section users*/
     padding-bottom: 2rem;
 }
 
-
-
-
 section div.squares {   /*Section clients*/
     background: red;
 }
@@ -199,6 +196,23 @@ div#clients-footer {
 
 div#clients-footer>div.flex {
     justify-content: space-between;
+}
+
+section#clients h2{   /*Section clients-footer*/
+    font-size: 2.2rem;
+    margin-right: 1rem;
+    color: #61082b;
+}
+
+section#clients button {
+    padding: 0.5rem 2rem;
+    background: white;
+    border: 0px;
+}
+
+section#clients button:hover {
+    background: lightgray;
+    cursor: pointer;
 }
 
 footer {    /*Footer*/
