@@ -35,7 +35,6 @@ body {
 
 body>header {   /*Header*/
     background-color: white;
-    width: 100vw;
     height: 80px;
     justify-content: space-between;
 }
@@ -60,6 +59,11 @@ button.blue {
     background: #0061ff;
     color: white;
     border: 0px;
+}
+
+button.blue:hover {
+    background: #277aff;
+    cursor:pointer;
 }
 
 main>header {   /*Main ed inizio header main*/ 
@@ -127,21 +131,26 @@ section>img {
     width: 60%;
 }
 
-section#operations>div.flex {
+section#operations>div.flex {   /*Section operations*/
     justify-content: space-between;
     flex-wrap: wrap;
     height: 800px;
 }
 
+section#operations>h2 {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+
 div.cards {
-    width: 300px;
+    width: 275px;
 }
 
 div.cards img {
     width: 100%;
 }
 
-section div.squares {
+section div.squares {   /*Section clients*/
     background: red;
 }
 
