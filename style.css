@@ -95,7 +95,7 @@ header#jumbotron button {
     width: 900px;
 }
 
-section.tabs {  /*Section billing*/
+section.container {  /*Section billing*/
     justify-content: space-between;
 }
 
@@ -114,17 +114,65 @@ section#billing section.flex {
     justify-content: space-between;
 }
 
-div.columns {
-    border: 1px solid black;
+section#container div.col {
+    border: 1px solid lightgrey;
     width: calc(100% / 3 - 2rem);
-    height: 800px;
     padding: 1rem;
 }
 
-section#team {
+section#container hr{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+section#container h2,
+section#team h2 {
+    text-align: center;
+    font-size: 1rem;
+    margin: auto;
+    padding: 0.5rem 0;
+}
+
+section#container h3,
+section#team h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+section#container h4,
+section#team h4 {
+    padding-bottom: 1rem;
+}
+
+section#container p.recurrence {
+    color: grey;
+    padding-bottom: 3rem;
+}
+
+section#container p {
+    padding: 0.5rem 0;
+}
+
+section#container button {
     width: 100%;
-    height: 300px;
-    border: 1px solid black;
+    margin: 2rem 0;
+}
+
+hr.short {
+    width: 20%;
+}
+
+section#team {
+    margin-top: 4rem;
+    padding: 1rem;
+    border: 1px solid lightgrey;
+    position: relative;
+}
+
+section#team button {
+    position: absolute;
+    top: 4rem;
+    right: 1rem;
 }
 
 section#partners>img {   /*Section partners*/
