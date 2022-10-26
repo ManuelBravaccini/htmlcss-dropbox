@@ -63,7 +63,7 @@ button.blue {
 
 button.blue:hover {
     background: #277aff;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 main>header {   /*Main ed inizio header main*/ 
@@ -127,8 +127,32 @@ section#team {
     border: 1px solid black;
 }
 
-section>img {
+section#partners>img {   /*Section partners*/
     width: 60%;
+}
+
+section#partners div.partner-content {
+    padding: 4rem;
+}
+
+section#partners h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+section#partners p{
+    padding-bottom: 1rem;
+}
+
+section#partners button {
+    padding: 0.5rem 1rem;
+    background: white;
+    border: 1px solid black;
+}
+
+section#partners button:hover {
+    background: lightgrey;
+    cursor: pointer;
 }
 
 section#operations>div.flex {   /*Section operations*/
