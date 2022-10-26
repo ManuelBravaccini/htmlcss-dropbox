@@ -100,7 +100,7 @@ section.tabs {  /*Section billing*/
 }
 
 section#billing h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin-bottom: 2rem;
 }
 
@@ -162,20 +162,24 @@ section#operations>div.flex {   /*Section operations*/
 }
 
 section#operations>h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin-bottom: 4rem;
 }
 
-div.cards {
+section#operations div.cards {
     width: 275px;
 }
 
-div.cards img {
+section#operations div.cards img {
     width: 100%;
 }
 
+section#operations h3 {
+    padding-bottom: 1rem;
+}
+
 section#users h2{   /*Section users*/
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     padding-bottom: 2rem;
 }
 
@@ -215,6 +219,15 @@ section#clients button:hover {
     cursor: pointer;
 }
 
+section#faq h2 {    /*Section faq*/
+    font-size: 2.5rem;
+    margin-bottom: 3.5rem;
+}
+
+section#faq h4{   
+    padding: 2rem 0;
+}
+
 footer {    /*Footer*/
     background-color: black;
     color: white;
@@ -228,7 +241,6 @@ footer nav {
 ul:before{
     content:attr(aria-label);
     font-weight:bold;
-    padding-bottom: 1rem;
 }
 
 nav li{
@@ -236,3 +248,13 @@ nav li{
     padding: 0.5rem 0;
     font-size: 0.7rem;
 }
+
+footer hr {
+    width: 10%;
+}
+
+footer p.lang {
+    padding: 2rem 0;
+    color: grey;
+}
+
