@@ -231,17 +231,105 @@ section#users h2{   /*Section users*/
     padding-bottom: 2rem;
 }
 
-section div.squares {   /*Section clients*/
-    background: red;
-}
-
-div.squares div.square {
+div.squares div.square, /*Section clients*/
+div.squares div.square2 {
     background: violet;
     width: calc(100vw / 3);
     height: calc(100vw / 3);
 }
 
-div#clients-footer {
+div.squares div.square {
+    position: relative;
+}
+
+.logoSize {
+    width: 50%;
+    height: 50%;
+}
+
+div.square .topL {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+.topL#designitLogo {
+    background-color: #a2d39b;
+}
+
+.topL#WBR {
+    background-color: #d5001f;
+}
+
+div.square .topR {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+.topR#ASU {
+    background-color: #61082b;
+}
+
+.topR#HearstCorp {
+    background-color: #b4d0e7;
+}
+
+div.square .botL {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+.botL#UoF {
+    background-color: #0d2481;
+}
+
+.botL#LP {
+    background-color: #0d2481;
+}
+
+div.square .botR {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+.botR#topps {
+    background-color: #ff1c1c;
+}
+
+.botR#CCO {
+    background-color: #ffd830;
+}
+
+div.squares div.square2 {
+    background-color: #f5f5f5;
+    padding: 2rem;
+}
+
+div.square2 img {
+    width: 50%;
+}
+
+div.square2 hr,
+div.square2 p {
+    margin: 2rem 0;
+}
+
+div#clients-footer {    /*Section clients-footer*/
     background: #b4d0e7;
     padding: 100px;
 }
@@ -250,7 +338,7 @@ div#clients-footer>div.flex {
     justify-content: space-between;
 }
 
-section#clients h2{   /*Section clients-footer*/
+section#clients h2{
     font-size: 2.2rem;
     margin-right: 1rem;
     color: #61082b;
