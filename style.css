@@ -217,6 +217,7 @@ section#operations>h2 {
 
 section#operations div.cards {
     width: 275px;
+    margin-bottom: 3rem;
 }
 
 section#operations div.cards img {
@@ -234,27 +235,26 @@ section#users h2{   /*Section users*/
 
 div.squares div.square, /*Section clients*/
 div.squares div.square2 {
-    background: violet;
     width: calc(100vw / 3);
     height: calc(100vw / 3);
 }
 
 div.squares div.square {
+    flex-wrap: wrap;
+}
+
+.imgContainer {
     position: relative;
+    width: 50%;
+    height: 50%;
 }
 
 .logoSize {
     width: 50%;
-    height: 50%;
-}
-
-div.square .topL {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 50%;
-    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .topL#designitLogo {
@@ -265,54 +265,27 @@ div.square .topL {
     background-color: #d5001f;
 }
 
-div.square .topR {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 50%;
-    height: 50%;
-    text-align: center;
-}
-
-.topR#ASU {
+#ASU {
     background-color: #61082b;
 }
 
-.topR#HearstCorp {
+#HearstCorp {
     background-color: #b4d0e7;
 }
 
-div.square .botL {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 50%;
-    height: 50%;
-    text-align: center;
-}
-
-.botL#UoF {
+#UoF {
     background-color: #0d2481;
 }
 
-.botL#LP {
+#LP {
     background-color: #0d2481;
 }
 
-div.square .botR {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 50%;
-    height: 50%;
-    text-align: center;
-}
-
-.botR#topps {
+#topps {
     background-color: #ff1c1c;
 }
 
-.botR#CCO {
+#CCO {
     background-color: #ffd830;
 }
 
