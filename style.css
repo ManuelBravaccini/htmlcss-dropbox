@@ -255,13 +255,14 @@ div.squares div.square {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: brightness(0) invert(1);
 }
 
-.topL#designitLogo {
+#designitLogo {
     background-color: #a2d39b;
 }
 
-.topL#WBR {
+#WBR {
     background-color: #d5001f;
 }
 
