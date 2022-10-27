@@ -181,6 +181,7 @@ section#partners>img {   /*Section partners*/
 
 section#partners div.partner-content {
     padding: 4rem;
+    width: 40%;
 }
 
 section#partners h3 {
